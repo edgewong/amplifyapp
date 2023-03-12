@@ -1,0 +1,481 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@8.19.3
+2 info using node@v16.19.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/cloudshell-user/amplifyapp/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 11ms
+11 timing config:load:file:/home/cloudshell-user/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 0ms
+18 timing config:load Completed in 20ms
+19 timing npm:load:configload Completed in 20ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm install @testing-library/jest-dom@^5.14.1 @testing-library/react@^13.0.0 @testing-library/user-event@^13.2.1 web-vitals@^2.1.0
+23 verbose argv "install" "--no-audit" "--save" "@testing-library/jest-dom@^5.14.1" "@testing-library/react@^13.0.0" "@testing-library/user-event@^13.2.1" "web-vitals@^2.1.0"
+24 timing npm:load:setTitle Completed in 1ms
+25 timing config:load:flatten Completed in 2ms
+26 timing npm:load:display Completed in 3ms
+27 verbose logfile logs-max:10 dir:/home/cloudshell-user/.npm/_logs
+28 verbose logfile /home/cloudshell-user/.npm/_logs/2023-03-12T05_08_43_217Z-debug-0.log
+29 timing npm:load:logFile Completed in 3ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 30ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 1870ms
+36 timing idealTree:userRequests Completed in 2ms
+37 silly idealTree buildDeps
+38 silly fetch manifest @testing-library/jest-dom@^5.14.1
+39 timing arborist:ctor Completed in 0ms
+40 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fjest-dom 951ms (cache miss)
+41 silly fetch manifest @testing-library/react@^13.0.0
+42 http fetch GET 200 https://registry.npmjs.org/@testing-library%2freact 47ms (cache miss)
+43 silly fetch manifest react@^18.2.0
+44 http fetch GET 200 https://registry.npmjs.org/react 11ms (cache hit)
+45 silly fetch manifest react-dom@^18.2.0
+46 http fetch GET 200 https://registry.npmjs.org/react-dom 7ms (cache hit)
+47 silly fetch manifest @testing-library/user-event@^13.2.1
+48 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fuser-event 74ms (cache miss)
+49 silly fetch manifest @testing-library/dom@>=7.21.4
+50 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fdom 902ms (cache miss)
+51 silly fetch manifest web-vitals@^2.1.0
+52 http fetch GET 200 https://registry.npmjs.org/web-vitals 93ms (cache miss)
+53 silly placeDep ROOT @testing-library/jest-dom@5.16.5 OK for: amplifyapp@0.1.0 want: ^5.14.1
+54 silly placeDep ROOT @testing-library/react@13.4.0 OK for: amplifyapp@0.1.0 want: ^13.0.0
+55 silly placeDep ROOT @testing-library/user-event@13.5.0 OK for: amplifyapp@0.1.0 want: ^13.2.1
+56 silly placeDep ROOT @testing-library/dom@9.0.1 OK for: @testing-library/user-event@13.5.0 want: >=7.21.4
+57 silly placeDep ROOT web-vitals@2.1.4 OK for: amplifyapp@0.1.0 want: ^2.1.0
+58 silly fetch manifest @types/testing-library__jest-dom@^5.9.1
+59 silly fetch manifest chalk@^3.0.0
+60 silly fetch manifest @adobe/css-tools@^4.0.1
+61 silly fetch manifest css.escape@^1.5.1
+62 silly fetch manifest dom-accessibility-api@^0.5.6
+63 silly fetch manifest redent@^3.0.0
+64 silly fetch manifest @testing-library/dom@^8.5.0
+65 silly fetch manifest @types/react-dom@^18.0.0
+66 silly fetch manifest @types/aria-query@^5.0.1
+67 silly fetch manifest chalk@^4.1.0
+68 silly fetch manifest dom-accessibility-api@^0.5.9
+69 silly fetch manifest lz-string@^1.5.0
+70 http fetch GET 200 https://registry.npmjs.org/chalk 45ms (cache hit)
+71 http fetch GET 200 https://registry.npmjs.org/chalk 42ms (cache hit)
+72 http fetch GET 200 https://registry.npmjs.org/@types%2ftesting-library__jest-dom 53ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/lz-string 60ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/redent 66ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api 69ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api 76ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/@adobe%2fcss-tools 86ms (cache miss)
+78 http fetch GET 200 https://registry.npmjs.org/@types%2faria-query 86ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/css.escape 460ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 740ms (cache miss)
+81 timing idealTree:#root Completed in 2903ms
+82 silly placeDep ROOT @types/aria-query@5.0.1 OK for: @testing-library/dom@9.0.1 want: ^5.0.1
+83 silly placeDep node_modules/@testing-library/dom chalk@4.1.2 OK for: @testing-library/dom@9.0.1 want: ^4.1.0
+84 silly placeDep ROOT dom-accessibility-api@0.5.16 OK for: @testing-library/dom@9.0.1 want: ^0.5.9
+85 silly placeDep ROOT lz-string@1.5.0 OK for: @testing-library/dom@9.0.1 want: ^1.5.0
+86 silly fetch manifest ansi-styles@^4.1.0
+87 silly fetch manifest supports-color@^7.1.0
+88 http fetch GET 200 https://registry.npmjs.org/supports-color 3ms (cache hit)
+89 http fetch GET 200 https://registry.npmjs.org/ansi-styles 5ms (cache hit)
+90 timing idealTree:node_modules/@testing-library/dom Completed in 13ms
+91 silly placeDep ROOT @adobe/css-tools@4.2.0 OK for: @testing-library/jest-dom@5.16.5 want: ^4.0.1
+92 silly placeDep ROOT @types/testing-library__jest-dom@5.14.5 OK for: @testing-library/jest-dom@5.16.5 want: ^5.9.1
+93 silly placeDep node_modules/@testing-library/jest-dom chalk@3.0.0 OK for: @testing-library/jest-dom@5.16.5 want: ^3.0.0
+94 silly placeDep ROOT css.escape@1.5.1 OK for: @testing-library/jest-dom@5.16.5 want: ^1.5.1
+95 silly placeDep ROOT redent@3.0.0 OK for: @testing-library/jest-dom@5.16.5 want: ^3.0.0
+96 silly fetch manifest @types/jest@*
+97 silly fetch manifest indent-string@^4.0.0
+98 silly fetch manifest strip-indent@^3.0.0
+99 http fetch GET 200 https://registry.npmjs.org/indent-string 22ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/@types%2fjest 41ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/strip-indent 118ms (cache miss)
+102 timing idealTree:node_modules/@testing-library/jest-dom Completed in 125ms
+103 timing idealTree:node_modules/@adobe/css-tools Completed in 0ms
+104 silly placeDep node_modules/@testing-library/react @testing-library/dom@8.20.0 OK for: @testing-library/react@13.4.0 want: ^8.5.0
+105 silly placeDep ROOT @types/react-dom@18.0.11 OK for: @testing-library/react@13.4.0 want: ^18.0.0
+106 silly fetch manifest @types/react@*
+107 http fetch GET 200 https://registry.npmjs.org/@types%2freact 32ms (cache miss)
+108 timing idealTree:node_modules/@testing-library/react Completed in 38ms
+109 timing idealTree:node_modules/@testing-library/user-event Completed in 0ms
+110 timing idealTree:node_modules/@types/aria-query Completed in 0ms
+111 silly placeDep ROOT @types/react@18.0.28 OK for: @types/react-dom@18.0.11 want: *
+112 silly fetch manifest @types/prop-types@*
+113 silly fetch manifest @types/scheduler@*
+114 silly fetch manifest csstype@^3.0.2
+115 http fetch GET 200 https://registry.npmjs.org/@types%2fprop-types 29ms (cache miss)
+116 http fetch GET 200 https://registry.npmjs.org/@types%2fscheduler 29ms (cache miss)
+117 http fetch GET 200 https://registry.npmjs.org/csstype 152ms (cache miss)
+118 timing idealTree:node_modules/@types/react-dom Completed in 157ms
+119 silly placeDep ROOT @types/prop-types@15.7.5 OK for: @types/react@18.0.28 want: *
+120 silly placeDep ROOT @types/scheduler@0.16.2 OK for: @types/react@18.0.28 want: *
+121 silly placeDep ROOT csstype@3.1.1 OK for: @types/react@18.0.28 want: ^3.0.2
+122 timing idealTree:node_modules/@types/react Completed in 5ms
+123 timing idealTree:node_modules/@types/prop-types Completed in 0ms
+124 timing idealTree:node_modules/@types/scheduler Completed in 0ms
+125 silly placeDep ROOT @types/jest@29.4.0 OK for: @types/testing-library__jest-dom@5.14.5 want: *
+126 silly fetch manifest expect@^29.0.0
+127 silly fetch manifest pretty-format@^29.0.0
+128 http fetch GET 200 https://registry.npmjs.org/expect 13ms (cache hit)
+129 http fetch GET 200 https://registry.npmjs.org/pretty-format 16ms (cache hit)
+130 timing idealTree:node_modules/@types/testing-library__jest-dom Completed in 38ms
+131 silly placeDep node_modules/@types/jest expect@29.5.0 OK for: @types/jest@29.4.0 want: ^29.0.0
+132 silly placeDep node_modules/@types/jest pretty-format@29.5.0 OK for: @types/jest@29.4.0 want: ^29.0.0
+133 silly fetch manifest @jest/expect-utils@^29.5.0
+134 silly fetch manifest jest-get-type@^29.4.3
+135 silly fetch manifest jest-matcher-utils@^29.5.0
+136 silly fetch manifest jest-message-util@^29.5.0
+137 silly fetch manifest jest-util@^29.5.0
+138 silly fetch manifest @jest/schemas@^29.4.3
+139 silly fetch manifest ansi-styles@^5.0.0
+140 silly fetch manifest react-is@^18.0.0
+141 http fetch GET 200 https://registry.npmjs.org/jest-get-type 29ms (cache hit)
+142 http fetch GET 200 https://registry.npmjs.org/jest-matcher-utils 30ms (cache hit)
+143 http fetch GET 200 https://registry.npmjs.org/jest-message-util 33ms (cache hit)
+144 http fetch GET 200 https://registry.npmjs.org/jest-util 35ms (cache hit)
+145 http fetch GET 200 https://registry.npmjs.org/@jest%2fschemas 37ms (cache hit)
+146 http fetch GET 200 https://registry.npmjs.org/react-is 90ms (cache hit)
+147 http fetch GET 200 https://registry.npmjs.org/@jest%2fexpect-utils 242ms (cache miss)
+148 timing idealTree:node_modules/@types/jest Completed in 247ms
+149 timing idealTree:node_modules/css.escape Completed in 0ms
+150 timing idealTree:node_modules/csstype Completed in 0ms
+151 timing idealTree:node_modules/dom-accessibility-api Completed in 0ms
+152 timing idealTree:node_modules/lz-string Completed in 0ms
+153 silly placeDep ROOT indent-string@4.0.0 OK for: redent@3.0.0 want: ^4.0.0
+154 silly placeDep ROOT strip-indent@3.0.0 OK for: redent@3.0.0 want: ^3.0.0
+155 silly fetch manifest min-indent@^1.0.0
+156 http fetch GET 200 https://registry.npmjs.org/min-indent 97ms (cache miss)
+157 timing idealTree:node_modules/redent Completed in 101ms
+158 timing idealTree:node_modules/indent-string Completed in 1ms
+159 silly placeDep ROOT min-indent@1.0.1 OK for: strip-indent@3.0.0 want: ^1.0.0
+160 timing idealTree:node_modules/strip-indent Completed in 1ms
+161 timing idealTree:node_modules/min-indent Completed in 0ms
+162 timing idealTree:node_modules/web-vitals Completed in 0ms
+163 silly placeDep node_modules/@testing-library/dom ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+164 silly placeDep node_modules/@testing-library/dom supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+165 silly fetch manifest color-convert@^2.0.1
+166 silly fetch manifest has-flag@^4.0.0
+167 http fetch GET 200 https://registry.npmjs.org/color-convert 4ms (cache hit)
+168 http fetch GET 200 https://registry.npmjs.org/has-flag 4ms (cache hit)
+169 timing idealTree:node_modules/@testing-library/dom/node_modules/chalk Completed in 8ms
+170 silly placeDep node_modules/@testing-library/dom color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+171 silly fetch manifest color-name@~1.1.4
+172 http fetch GET 200 https://registry.npmjs.org/color-name 2ms (cache hit)
+173 timing idealTree:node_modules/@testing-library/dom/node_modules/ansi-styles Completed in 4ms
+174 silly placeDep node_modules/@testing-library/dom color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+175 timing idealTree:node_modules/@testing-library/dom/node_modules/color-convert Completed in 1ms
+176 timing idealTree:node_modules/@testing-library/dom/node_modules/color-name Completed in 0ms
+177 silly placeDep node_modules/@testing-library/dom has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+178 timing idealTree:node_modules/@testing-library/dom/node_modules/supports-color Completed in 1ms
+179 timing idealTree:node_modules/@testing-library/dom/node_modules/has-flag Completed in 0ms
+180 silly placeDep node_modules/@testing-library/jest-dom ansi-styles@4.3.0 OK for: chalk@3.0.0 want: ^4.1.0
+181 silly placeDep node_modules/@testing-library/jest-dom supports-color@7.2.0 OK for: chalk@3.0.0 want: ^7.1.0
+182 timing idealTree:node_modules/@testing-library/jest-dom/node_modules/chalk Completed in 3ms
+183 silly placeDep node_modules/@testing-library/jest-dom color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+184 timing idealTree:node_modules/@testing-library/jest-dom/node_modules/ansi-styles Completed in 1ms
+185 silly placeDep node_modules/@testing-library/jest-dom color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+186 timing idealTree:node_modules/@testing-library/jest-dom/node_modules/color-convert Completed in 0ms
+187 timing idealTree:node_modules/@testing-library/jest-dom/node_modules/color-name Completed in 0ms
+188 silly placeDep node_modules/@testing-library/jest-dom has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+189 timing idealTree:node_modules/@testing-library/jest-dom/node_modules/supports-color Completed in 0ms
+190 timing idealTree:node_modules/@testing-library/jest-dom/node_modules/has-flag Completed in 0ms
+191 silly placeDep node_modules/@testing-library/react chalk@4.1.2 OK for: @testing-library/dom@8.20.0 want: ^4.1.0
+192 timing idealTree:node_modules/@testing-library/react/node_modules/@testing-library/dom Completed in 1ms
+193 silly placeDep node_modules/@testing-library/react ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+194 silly placeDep node_modules/@testing-library/react supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+195 timing idealTree:node_modules/@testing-library/react/node_modules/chalk Completed in 2ms
+196 silly placeDep node_modules/@testing-library/react color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+197 timing idealTree:node_modules/@testing-library/react/node_modules/ansi-styles Completed in 1ms
+198 silly placeDep node_modules/@testing-library/react color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+199 timing idealTree:node_modules/@testing-library/react/node_modules/color-convert Completed in 0ms
+200 timing idealTree:node_modules/@testing-library/react/node_modules/color-name Completed in 0ms
+201 silly placeDep node_modules/@testing-library/react has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+202 timing idealTree:node_modules/@testing-library/react/node_modules/supports-color Completed in 2ms
+203 timing idealTree:node_modules/@testing-library/react/node_modules/has-flag Completed in 0ms
+204 silly placeDep ROOT @jest/expect-utils@29.5.0 OK for: expect@29.5.0 want: ^29.5.0
+205 silly placeDep node_modules/@types/jest jest-get-type@29.4.3 OK for: expect@29.5.0 want: ^29.4.3
+206 silly placeDep node_modules/@types/jest jest-matcher-utils@29.5.0 OK for: expect@29.5.0 want: ^29.5.0
+207 silly placeDep node_modules/@types/jest jest-message-util@29.5.0 OK for: expect@29.5.0 want: ^29.5.0
+208 silly placeDep node_modules/@types/jest jest-util@29.5.0 OK for: expect@29.5.0 want: ^29.5.0
+209 silly fetch manifest chalk@^4.0.0
+210 silly fetch manifest jest-diff@^29.5.0
+211 silly fetch manifest @jest/types@^29.5.0
+212 http fetch GET 200 https://registry.npmjs.org/jest-diff 5ms (cache hit)
+213 http fetch GET 200 https://registry.npmjs.org/@jest%2ftypes 6ms (cache hit)
+214 timing idealTree:node_modules/@types/jest/node_modules/expect Completed in 14ms
+215 silly placeDep node_modules/@jest/expect-utils jest-get-type@29.4.3 OK for: @jest/expect-utils@29.5.0 want: ^29.4.3
+216 timing idealTree:node_modules/@jest/expect-utils Completed in 2ms
+217 timing idealTree:node_modules/@jest/expect-utils/node_modules/jest-get-type Completed in 0ms
+218 timing idealTree:node_modules/@types/jest/node_modules/jest-get-type Completed in 0ms
+219 silly placeDep node_modules/@types/jest chalk@4.1.2 OK for: jest-matcher-utils@29.5.0 want: ^4.0.0
+220 silly placeDep node_modules/@types/jest jest-diff@29.5.0 OK for: jest-matcher-utils@29.5.0 want: ^29.5.0
+221 silly fetch manifest diff-sequences@^29.4.3
+222 http fetch GET 200 https://registry.npmjs.org/diff-sequences 7ms (cache hit)
+223 timing idealTree:node_modules/@types/jest/node_modules/jest-matcher-utils Completed in 13ms
+224 silly placeDep node_modules/@types/jest ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+225 silly placeDep node_modules/@types/jest supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+226 timing idealTree:node_modules/@types/jest/node_modules/chalk Completed in 4ms
+227 silly placeDep node_modules/@types/jest color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+228 timing idealTree:node_modules/@types/jest/node_modules/ansi-styles Completed in 1ms
+229 silly placeDep node_modules/@types/jest color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+230 timing idealTree:node_modules/@types/jest/node_modules/color-convert Completed in 1ms
+231 timing idealTree:node_modules/@types/jest/node_modules/color-name Completed in 0ms
+232 silly placeDep node_modules/@types/jest diff-sequences@29.4.3 OK for: jest-diff@29.5.0 want: ^29.4.3
+233 timing idealTree:node_modules/@types/jest/node_modules/jest-diff Completed in 1ms
+234 timing idealTree:node_modules/@types/jest/node_modules/diff-sequences Completed in 0ms
+235 silly placeDep node_modules/@types/jest @jest/types@29.5.0 OK for: jest-message-util@29.5.0 want: ^29.5.0
+236 silly fetch manifest @types/yargs@^17.0.8
+237 http fetch GET 200 https://registry.npmjs.org/@types%2fyargs 6ms (cache hit)
+238 timing idealTree:node_modules/@types/jest/node_modules/jest-message-util Completed in 10ms
+239 silly placeDep node_modules/@types/jest @jest/schemas@29.4.3 OK for: @jest/types@29.5.0 want: ^29.4.3
+240 silly placeDep node_modules/@types/jest @types/yargs@17.0.22 OK for: @jest/types@29.5.0 want: ^17.0.8
+241 silly fetch manifest @sinclair/typebox@^0.25.16
+242 http fetch GET 200 https://registry.npmjs.org/@sinclair%2ftypebox 3ms (cache hit)
+243 timing idealTree:node_modules/@types/jest/node_modules/@jest/types Completed in 7ms
+244 silly placeDep node_modules/@types/jest @sinclair/typebox@0.25.24 OK for: @jest/schemas@29.4.3 want: ^0.25.16
+245 timing idealTree:node_modules/@types/jest/node_modules/@jest/schemas Completed in 1ms
+246 timing idealTree:node_modules/@types/jest/node_modules/@sinclair/typebox Completed in 0ms
+247 timing idealTree:node_modules/@types/jest/node_modules/@types/yargs Completed in 0ms
+248 timing idealTree:node_modules/@types/jest/node_modules/jest-util Completed in 0ms
+249 silly placeDep node_modules/@types/jest/node_modules/pretty-format ansi-styles@5.2.0 OK for: pretty-format@29.5.0 want: ^5.0.0
+250 silly placeDep node_modules/@types/jest react-is@18.2.0 OK for: pretty-format@29.5.0 want: ^18.0.0
+251 timing idealTree:node_modules/@types/jest/node_modules/pretty-format Completed in 1ms
+252 timing idealTree:node_modules/@types/jest/node_modules/react-is Completed in 0ms
+253 silly placeDep node_modules/@types/jest has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+254 timing idealTree:node_modules/@types/jest/node_modules/supports-color Completed in 1ms
+255 timing idealTree:node_modules/@types/jest/node_modules/has-flag Completed in 0ms
+256 timing idealTree:node_modules/@types/jest/node_modules/pretty-format/node_modules/ansi-styles Completed in 0ms
+257 timing idealTree:buildDeps Completed in 3715ms
+258 timing idealTree:fixDepFlags Completed in 74ms
+259 timing idealTree Completed in 5691ms
+260 timing reify:loadTrees Completed in 5692ms
+261 timing reify:diffTrees Completed in 76ms
+262 silly reify moves {}
+263 timing reify:retireShallow Completed in 1ms
+264 timing reify:createSparse Completed in 18ms
+265 timing reify:loadBundles Completed in 0ms
+266 verbose reify failed optional dependency /home/cloudshell-user/amplifyapp/node_modules/fsevents
+267 silly reify mark deleted [ '/home/cloudshell-user/amplifyapp/node_modules/fsevents' ]
+268 timing reifyNode:node_modules/fsevents Completed in 64ms
+269 silly tarball no local data for @jest/expect-utils@https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-29.5.0.tgz. Extracting by manifest.
+270 silly tarball no local data for min-indent@https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz. Extracting by manifest.
+271 silly tarball no local data for strip-indent@https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz. Extracting by manifest.
+272 silly tarball no local data for indent-string@https://registry.npmjs.org/indent-string/-/indent-string-4.0.0.tgz. Extracting by manifest.
+273 silly tarball no local data for @types/jest@https://registry.npmjs.org/@types/jest/-/jest-29.4.0.tgz. Extracting by manifest.
+274 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.1.1.tgz. Extracting by manifest.
+275 silly tarball no local data for @types/scheduler@https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz. Extracting by manifest.
+276 silly tarball no local data for @types/prop-types@https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz. Extracting by manifest.
+277 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-18.0.28.tgz. Extracting by manifest.
+278 silly tarball no local data for @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-18.0.11.tgz. Extracting by manifest.
+279 silly tarball no local data for redent@https://registry.npmjs.org/redent/-/redent-3.0.0.tgz. Extracting by manifest.
+280 silly tarball no local data for css.escape@https://registry.npmjs.org/css.escape/-/css.escape-1.5.1.tgz. Extracting by manifest.
+281 silly tarball no local data for @types/testing-library__jest-dom@https://registry.npmjs.org/@types/testing-library__jest-dom/-/testing-library__jest-dom-5.14.5.tgz. Extracting by manifest.
+282 silly tarball no local data for @adobe/css-tools@https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.2.0.tgz. Extracting by manifest.
+283 silly tarball no local data for lz-string@https://registry.npmjs.org/lz-string/-/lz-string-1.5.0.tgz. Extracting by manifest.
+284 silly tarball no local data for dom-accessibility-api@https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.5.16.tgz. Extracting by manifest.
+285 silly tarball no local data for @types/aria-query@https://registry.npmjs.org/@types/aria-query/-/aria-query-5.0.1.tgz. Extracting by manifest.
+286 silly tarball no local data for web-vitals@https://registry.npmjs.org/web-vitals/-/web-vitals-2.1.4.tgz. Extracting by manifest.
+287 silly tarball no local data for @testing-library/dom@https://registry.npmjs.org/@testing-library/dom/-/dom-9.0.1.tgz. Extracting by manifest.
+288 silly tarball no local data for @testing-library/user-event@https://registry.npmjs.org/@testing-library/user-event/-/user-event-13.5.0.tgz. Extracting by manifest.
+289 silly tarball no local data for @testing-library/react@https://registry.npmjs.org/@testing-library/react/-/react-13.4.0.tgz. Extracting by manifest.
+290 silly tarball no local data for @testing-library/jest-dom@https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-5.16.5.tgz. Extracting by manifest.
+291 silly tarball no local data for jest-get-type@https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.4.3.tgz. Extracting by manifest.
+292 silly tarball no local data for @sinclair/typebox@https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.25.24.tgz. Extracting by manifest.
+293 silly tarball no local data for @jest/schemas@https://registry.npmjs.org/@jest/schemas/-/schemas-29.4.3.tgz. Extracting by manifest.
+294 silly tarball no local data for @jest/types@https://registry.npmjs.org/@jest/types/-/types-29.5.0.tgz. Extracting by manifest.
+295 silly tarball no local data for diff-sequences@https://registry.npmjs.org/diff-sequences/-/diff-sequences-29.4.3.tgz. Extracting by manifest.
+296 silly tarball no local data for jest-diff@https://registry.npmjs.org/jest-diff/-/jest-diff-29.5.0.tgz. Extracting by manifest.
+297 silly tarball no local data for jest-util@https://registry.npmjs.org/jest-util/-/jest-util-29.5.0.tgz. Extracting by manifest.
+298 silly tarball no local data for jest-message-util@https://registry.npmjs.org/jest-message-util/-/jest-message-util-29.5.0.tgz. Extracting by manifest.
+299 silly tarball no local data for jest-matcher-utils@https://registry.npmjs.org/jest-matcher-utils/-/jest-matcher-utils-29.5.0.tgz. Extracting by manifest.
+300 silly tarball no local data for jest-get-type@https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.4.3.tgz. Extracting by manifest.
+301 silly tarball no local data for pretty-format@https://registry.npmjs.org/pretty-format/-/pretty-format-29.5.0.tgz. Extracting by manifest.
+302 silly tarball no local data for expect@https://registry.npmjs.org/expect/-/expect-29.5.0.tgz. Extracting by manifest.
+303 silly tarball no local data for @testing-library/dom@https://registry.npmjs.org/@testing-library/dom/-/dom-8.20.0.tgz. Extracting by manifest.
+304 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-3.0.0.tgz. Extracting by manifest.
+305 timing reifyNode:node_modules/@types/jest/node_modules/color-name Completed in 760ms
+306 timing reifyNode:node_modules/@testing-library/dom/node_modules/color-name Completed in 759ms
+307 timing reifyNode:node_modules/@testing-library/react/node_modules/color-name Completed in 759ms
+308 timing reifyNode:node_modules/@testing-library/jest-dom/node_modules/color-name Completed in 759ms
+309 timing reifyNode:node_modules/@types/jest/node_modules/has-flag Completed in 768ms
+310 timing reifyNode:node_modules/@types/jest/node_modules/supports-color Completed in 768ms
+311 timing reifyNode:node_modules/@testing-library/dom/node_modules/has-flag Completed in 767ms
+312 timing reifyNode:node_modules/@testing-library/dom/node_modules/supports-color Completed in 767ms
+313 timing reifyNode:node_modules/@testing-library/react/node_modules/has-flag Completed in 767ms
+314 timing reifyNode:node_modules/@testing-library/react/node_modules/supports-color Completed in 767ms
+315 timing reifyNode:node_modules/@testing-library/jest-dom/node_modules/has-flag Completed in 767ms
+316 timing reifyNode:node_modules/@testing-library/jest-dom/node_modules/supports-color Completed in 767ms
+317 timing reifyNode:node_modules/@types/jest/node_modules/ansi-styles Completed in 774ms
+318 timing reifyNode:node_modules/@types/jest/node_modules/pretty-format/node_modules/ansi-styles Completed in 774ms
+319 timing reifyNode:node_modules/@testing-library/dom/node_modules/ansi-styles Completed in 773ms
+320 timing reifyNode:node_modules/@testing-library/react/node_modules/ansi-styles Completed in 773ms
+321 timing reifyNode:node_modules/@testing-library/jest-dom/node_modules/ansi-styles Completed in 773ms
+322 timing reifyNode:node_modules/@types/jest/node_modules/color-convert Completed in 792ms
+323 timing reifyNode:node_modules/@testing-library/dom/node_modules/color-convert Completed in 791ms
+324 timing reifyNode:node_modules/@testing-library/react/node_modules/color-convert Completed in 790ms
+325 timing reifyNode:node_modules/@testing-library/jest-dom/node_modules/color-convert Completed in 790ms
+326 timing reifyNode:node_modules/@types/jest/node_modules/chalk Completed in 800ms
+327 timing reifyNode:node_modules/@testing-library/dom/node_modules/chalk Completed in 799ms
+328 timing reifyNode:node_modules/@testing-library/react/node_modules/chalk Completed in 798ms
+329 http fetch GET 200 https://registry.npmjs.org/strip-indent/-/strip-indent-3.0.0.tgz 695ms (cache miss)
+330 timing reifyNode:node_modules/strip-indent Completed in 801ms
+331 http fetch GET 200 https://registry.npmjs.org/min-indent/-/min-indent-1.0.1.tgz 697ms (cache miss)
+332 timing reifyNode:node_modules/min-indent Completed in 801ms
+333 http fetch GET 200 https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz 641ms (cache miss)
+334 timing reifyNode:node_modules/@types/scheduler Completed in 801ms
+335 timing reifyNode:node_modules/@types/jest/node_modules/react-is Completed in 805ms
+336 timing reifyNode:node_modules/@types/jest/node_modules/@types/yargs Completed in 805ms
+337 http fetch GET 200 https://registry.npmjs.org/@jest/expect-utils/-/expect-utils-29.5.0.tgz 704ms (cache miss)
+338 timing reifyNode:node_modules/@jest/expect-utils Completed in 807ms
+339 http fetch GET 200 https://registry.npmjs.org/indent-string/-/indent-string-4.0.0.tgz 701ms (cache miss)
+340 timing reifyNode:node_modules/indent-string Completed in 808ms
+341 http fetch GET 200 https://registry.npmjs.org/@types/aria-query/-/aria-query-5.0.1.tgz 622ms (cache miss)
+342 timing reifyNode:node_modules/@types/aria-query Completed in 807ms
+343 http fetch GET 200 https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz 651ms (cache miss)
+344 timing reifyNode:node_modules/@types/prop-types Completed in 814ms
+345 http fetch GET 200 https://registry.npmjs.org/@jest/types/-/types-29.5.0.tgz 616ms (cache miss)
+346 http fetch GET 200 https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.4.3.tgz 620ms (cache miss)
+347 timing reifyNode:node_modules/@jest/expect-utils/node_modules/jest-get-type Completed in 816ms
+348 http fetch GET 200 https://registry.npmjs.org/redent/-/redent-3.0.0.tgz 646ms (cache miss)
+349 timing reifyNode:node_modules/redent Completed in 817ms
+350 timing reifyNode:node_modules/@types/jest/node_modules/@jest/types Completed in 818ms
+351 http fetch GET 200 https://registry.npmjs.org/@jest/schemas/-/schemas-29.4.3.tgz 621ms (cache miss)
+352 timing reifyNode:node_modules/@types/jest/node_modules/@jest/schemas Completed in 820ms
+353 http fetch GET 200 https://registry.npmjs.org/@types/jest/-/jest-29.4.0.tgz 712ms (cache miss)
+354 timing reifyNode:node_modules/@types/jest Completed in 821ms
+355 http fetch GET 200 https://registry.npmjs.org/diff-sequences/-/diff-sequences-29.4.3.tgz 560ms (cache miss)
+356 timing reifyNode:node_modules/@types/jest/node_modules/diff-sequences Completed in 821ms
+357 http fetch GET 200 https://registry.npmjs.org/jest-get-type/-/jest-get-type-29.4.3.tgz 552ms (cache miss)
+358 timing reifyNode:node_modules/@types/jest/node_modules/jest-get-type Completed in 822ms
+359 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-18.0.28.tgz 654ms (cache miss)
+360 http fetch GET 200 https://registry.npmjs.org/css.escape/-/css.escape-1.5.1.tgz 650ms (cache miss)
+361 timing reifyNode:node_modules/css.escape Completed in 823ms
+362 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-3.0.0.tgz 544ms (cache miss)
+363 timing reifyNode:node_modules/@testing-library/jest-dom/node_modules/chalk Completed in 823ms
+364 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-18.0.11.tgz 657ms (cache miss)
+365 timing reifyNode:node_modules/@types/react-dom Completed in 827ms
+366 http fetch GET 200 https://registry.npmjs.org/@types/testing-library__jest-dom/-/testing-library__jest-dom-5.14.5.tgz 653ms (cache miss)
+367 timing reifyNode:node_modules/@types/testing-library__jest-dom Completed in 827ms
+368 timing reifyNode:node_modules/@types/react Completed in 829ms
+369 http fetch GET 200 https://registry.npmjs.org/jest-message-util/-/jest-message-util-29.5.0.tgz 594ms (cache miss)
+370 timing reifyNode:node_modules/@types/jest/node_modules/jest-message-util Completed in 861ms
+371 http fetch GET 200 https://registry.npmjs.org/jest-matcher-utils/-/jest-matcher-utils-29.5.0.tgz 595ms (cache miss)
+372 timing reifyNode:node_modules/@types/jest/node_modules/jest-matcher-utils Completed in 863ms
+373 http fetch GET 200 https://registry.npmjs.org/jest-diff/-/jest-diff-29.5.0.tgz 604ms (cache miss)
+374 timing reifyNode:node_modules/@types/jest/node_modules/jest-diff Completed in 877ms
+375 http fetch GET 200 https://registry.npmjs.org/jest-util/-/jest-util-29.5.0.tgz 630ms (cache miss)
+376 timing reifyNode:node_modules/@types/jest/node_modules/jest-util Completed in 896ms
+377 http fetch GET 200 https://registry.npmjs.org/pretty-format/-/pretty-format-29.5.0.tgz 635ms (cache miss)
+378 timing reifyNode:node_modules/@types/jest/node_modules/pretty-format Completed in 906ms
+379 http fetch GET 200 https://registry.npmjs.org/expect/-/expect-29.5.0.tgz 636ms (cache miss)
+380 timing reifyNode:node_modules/@types/jest/node_modules/expect Completed in 909ms
+381 http fetch GET 200 https://registry.npmjs.org/lz-string/-/lz-string-1.5.0.tgz 752ms (cache miss)
+382 timing reifyNode:node_modules/lz-string Completed in 959ms
+383 http fetch GET 200 https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-5.16.5.tgz 781ms (cache miss)
+384 timing reifyNode:node_modules/@testing-library/jest-dom Completed in 971ms
+385 http fetch GET 200 https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.2.0.tgz 801ms (cache miss)
+386 timing reifyNode:node_modules/@adobe/css-tools Completed in 978ms
+387 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.5.16.tgz 804ms (cache miss)
+388 timing reifyNode:node_modules/dom-accessibility-api Completed in 990ms
+389 http fetch GET 200 https://registry.npmjs.org/web-vitals/-/web-vitals-2.1.4.tgz 818ms (cache miss)
+390 timing reifyNode:node_modules/web-vitals Completed in 1010ms
+391 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.1.1.tgz 912ms (cache miss)
+392 timing reifyNode:node_modules/csstype Completed in 1021ms
+393 http fetch GET 200 https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.25.24.tgz 828ms (cache miss)
+394 timing reifyNode:node_modules/@types/jest/node_modules/@sinclair/typebox Completed in 1026ms
+395 http fetch GET 200 https://registry.npmjs.org/@testing-library/user-event/-/user-event-13.5.0.tgz 888ms (cache miss)
+396 timing reifyNode:node_modules/@testing-library/user-event Completed in 1078ms
+397 http fetch GET 200 https://registry.npmjs.org/@testing-library/dom/-/dom-9.0.1.tgz 926ms (cache miss)
+398 timing reifyNode:node_modules/@testing-library/dom Completed in 1114ms
+399 http fetch GET 200 https://registry.npmjs.org/@testing-library/react/-/react-13.4.0.tgz 935ms (cache miss)
+400 timing reifyNode:node_modules/@testing-library/react Completed in 1125ms
+401 http fetch GET 200 https://registry.npmjs.org/@testing-library/dom/-/dom-8.20.0.tgz 889ms (cache miss)
+402 timing reifyNode:node_modules/@testing-library/react/node_modules/@testing-library/dom Completed in 1166ms
+403 timing reify:unpack Completed in 1170ms
+404 timing reify:unretire Completed in 1ms
+405 timing build:queue Completed in 5ms
+406 timing build:link:node_modules/lz-string Completed in 1ms
+407 timing build:link Completed in 1ms
+408 timing build:deps Completed in 6ms
+409 timing build Completed in 6ms
+410 timing reify:build Completed in 7ms
+411 timing reify:trash Completed in 1ms
+412 timing reify:save Completed in 426ms
+413 timing reify Completed in 7568ms
+414 silly ADD node_modules/@jest/expect-utils
+415 silly ADD node_modules/@jest/expect-utils/node_modules/jest-get-type
+416 silly ADD node_modules/min-indent
+417 silly ADD node_modules/strip-indent
+418 silly ADD node_modules/indent-string
+419 silly ADD node_modules/@types/jest
+420 silly ADD node_modules/@types/jest/node_modules/has-flag
+421 silly ADD node_modules/@types/jest/node_modules/react-is
+422 silly ADD node_modules/@types/jest/node_modules/@sinclair/typebox
+423 silly ADD node_modules/@types/jest/node_modules/@types/yargs
+424 silly ADD node_modules/@types/jest/node_modules/@jest/schemas
+425 silly ADD node_modules/@types/jest/node_modules/@jest/types
+426 silly ADD node_modules/@types/jest/node_modules/diff-sequences
+427 silly ADD node_modules/@types/jest/node_modules/color-name
+428 silly ADD node_modules/@types/jest/node_modules/color-convert
+429 silly ADD node_modules/@types/jest/node_modules/supports-color
+430 silly ADD node_modules/@types/jest/node_modules/ansi-styles
+431 silly ADD node_modules/@types/jest/node_modules/jest-diff
+432 silly ADD node_modules/@types/jest/node_modules/chalk
+433 silly ADD node_modules/@types/jest/node_modules/jest-util
+434 silly ADD node_modules/@types/jest/node_modules/jest-message-util
+435 silly ADD node_modules/@types/jest/node_modules/jest-matcher-utils
+436 silly ADD node_modules/@types/jest/node_modules/jest-get-type
+437 silly ADD node_modules/@types/jest/node_modules/pretty-format
+438 silly ADD node_modules/@types/jest/node_modules/pretty-format/node_modules/ansi-styles
+439 silly ADD node_modules/@types/jest/node_modules/expect
+440 silly ADD node_modules/csstype
+441 silly ADD node_modules/@types/scheduler
+442 silly ADD node_modules/@types/prop-types
+443 silly ADD node_modules/@types/react
+444 silly ADD node_modules/@types/react-dom
+445 silly ADD node_modules/redent
+446 silly ADD node_modules/css.escape
+447 silly ADD node_modules/@types/testing-library__jest-dom
+448 silly ADD node_modules/@adobe/css-tools
+449 silly ADD node_modules/lz-string
+450 silly ADD node_modules/dom-accessibility-api
+451 silly ADD node_modules/@types/aria-query
+452 silly ADD node_modules/web-vitals
+453 silly ADD node_modules/@testing-library/dom
+454 silly ADD node_modules/@testing-library/dom/node_modules/has-flag
+455 silly ADD node_modules/@testing-library/dom/node_modules/color-name
+456 silly ADD node_modules/@testing-library/dom/node_modules/color-convert
+457 silly ADD node_modules/@testing-library/dom/node_modules/supports-color
+458 silly ADD node_modules/@testing-library/dom/node_modules/ansi-styles
+459 silly ADD node_modules/@testing-library/dom/node_modules/chalk
+460 silly ADD node_modules/@testing-library/user-event
+461 silly ADD node_modules/@testing-library/react
+462 silly ADD node_modules/@testing-library/react/node_modules/has-flag
+463 silly ADD node_modules/@testing-library/react/node_modules/color-name
+464 silly ADD node_modules/@testing-library/react/node_modules/color-convert
+465 silly ADD node_modules/@testing-library/react/node_modules/supports-color
+466 silly ADD node_modules/@testing-library/react/node_modules/ansi-styles
+467 silly ADD node_modules/@testing-library/react/node_modules/chalk
+468 silly ADD node_modules/@testing-library/react/node_modules/@testing-library/dom
+469 silly ADD node_modules/@testing-library/jest-dom
+470 silly ADD node_modules/@testing-library/jest-dom/node_modules/has-flag
+471 silly ADD node_modules/@testing-library/jest-dom/node_modules/color-name
+472 silly ADD node_modules/@testing-library/jest-dom/node_modules/color-convert
+473 silly ADD node_modules/@testing-library/jest-dom/node_modules/supports-color
+474 silly ADD node_modules/@testing-library/jest-dom/node_modules/ansi-styles
+475 silly ADD node_modules/@testing-library/jest-dom/node_modules/chalk
+476 silly ADD
+477 timing command:install Completed in 7578ms
+478 verbose exit 0
+479 timing npm Completed in 7684ms
+480 info ok
